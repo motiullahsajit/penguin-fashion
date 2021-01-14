@@ -10,27 +10,25 @@
     <link rel="shortcut icon" href="logo&icons/fav-icon.png" type="image/x-icon">
 </head>
 <body>
-    <header class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <header class="container ">
+        <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
-              <a class="navbar-brand w-75" href="#"><img src="logo&icons/logo.png" class="w-75"></a>
+              <a class="navbar-brand w-50" href="#"><img src="logo&icons/logo.png" class="w-75"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                <div class="navbar-nav w-50">
+                <div class="navbar-nav">
                   <a class="nav-link active" aria-current="page" href="#">Home</a>
                   <a class="nav-link" href="#">Product</a>
                   <a class="nav-link" href="#">About us</a>
-                  <a class="nav-link ">Contact Us</a>
+                  <a class="nav-link" href="#contact-us">Contact Us</a>
                 </div>
               </div>
             </div>
           </nav>
-    </header>
-    <main class="container">
-        <section class="row d-flex justify-content-center align-items-center">
-            <div class="col-lg-5 p-5">
+          <section class="row d-flex justify-content-center">
+            <div class="col-lg-5 p-5 mt-5">
                 <h1><span class="highlite">BE THE PENGUINS</span></h1>
                 <h1>OF WINTER</h1>
                 <p>Lorem Ipsum is simply dummy text of the printing 
@@ -41,31 +39,34 @@
                 <img src="images/woman-logo.png" class="img-fluid">
             </div>
         </section>
-        <section class="categories">
-            <div class="row">
+      </header>  
+      <main class="container pt-5">
+        <section class="categories pb-5">
+            <div class="row justify-content-evenly">
               <div class="col-6">
-                <div class="d-flex justify-content-between align-items-center cat1">
-                  <h1>Woman</h1>
-                  <img src="images/woman-jacket1.png" >
+                <div class="d-flex justify-content-evenly align-items-center categori-woman">
+                  <a href="#womanjacket"><h2>Woman</h2></a>
+                  <a href="#womanjacket"><img src="images/woman-categori.png" class="img-fluid"></a>
                 </div>
               </div>
               <div class="col-6">
-                <div class="d-flex justify-content-between align-items-center cat2">
-                  <h1>Man</h1>
-                  <img src="images/man-jacket3.png" >
+                <div class="d-flex justify-content-evenly align-items-center categori-man">
+                  <a href="#manjacket"><h2>Man</h2></a>
+                  <a href="#manjacket"><img src="images/man-categori.png" class="img-fluid"></a>
                 </div>
-              </div>
-            </div>    
+              </div> 
+            </div>
         </section>
-        <section class="woman-jacket">
-          <h1>WOMAN JACKET</h1>
+        <section class="woman-jacket pb-5" id="womanjacket">
+          <h1 class="mb-5 text-md-start text-center">WOMAN JACKET</h1>
           <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
               <div class="card h-100 shadow">
                 <img src="images/woman-jacket1.png" class="card-img-top p-3">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <h5 class="card-title">Yellow Coat Jacket </h5>
+                  <p class="card-text">Lorem Ipsum is simply dummy text of the 
+                    printing and typesetting industry.</p>
                 </div>
                 <div class="card-footer d-flex justify-content-around">
                   <p>$234</p>
@@ -77,8 +78,9 @@
               <div class="card h-100 shadow">
                 <img src="images/woman-jacket2.png" class="card-img-top p-3">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  <h5 class="card-title">Ladies Jacket </h5>
+                  <p class="card-text">Lorem Ipsum is simply dummy text of the 
+                    printing and typesetting industry.</p>
                 </div>
                 <div class="card-footer d-flex justify-content-around">
                   <p>$234</p>
@@ -90,8 +92,9 @@
               <div class="card h-100 shadow">
                 <img src="images/woman-jacket3.png" class="card-img-top p-3">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                  <h5 class="card-title">Woman Leather Jacket</h5>
+                  <p class="card-text">Lorem Ipsum is simply dummy text of the 
+                    printing and typesetting industry.</p>
                 </div>
                 <div class="card-footer d-flex justify-content-around">
                   <p>$234</p>
@@ -101,15 +104,16 @@
             </div>
           </div>
         </section>
-        <div class="man-jacket">
-          <h1>MAN JACKET</h1>
+        <section class="man-jacket pb-5" id="manjacket">
+          <h1 class="mb-5 text-md-start text-center">MAN JACKET</h1>
           <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
               <div class="card h-100 shadow">
                 <img src="images/man-jacket1.png" class="card-img-top p-3">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <h5 class="card-title">Snowboard Jacket Mens</h5>
+                  <p class="card-text">Lorem Ipsum is simply dummy text of the 
+                    printing and typesetting industry.</p>
                 </div>
                 <div class="card-footer d-flex justify-content-around">
                   <p>$234</p>
@@ -121,8 +125,9 @@
               <div class="card h-100 shadow">
                 <img src="images/man-jacket2.png" class="card-img-top p-3">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  <h5 class="card-title">Man Leather Jackets</h5>
+                  <p class="card-text">Lorem Ipsum is simply dummy text of the 
+                    printing and typesetting industry.</p>
                 </div>
                 <div class="card-footer d-flex justify-content-around">
                   <p>$234</p>
@@ -134,8 +139,9 @@
               <div class="card h-100 shadow">
                 <img src="images/man-jacket3.png" class="card-img-top p-3">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                  <h5 class="card-title">Man Casual Jackets</h5>
+                  <p class="card-text">Lorem Ipsum is simply dummy text of the 
+                    printing and typesetting industry.</p>
                 </div>
                 <div class="card-footer d-flex justify-content-around">
                   <p>$234</p>
@@ -144,47 +150,59 @@
               </div>
             </div>
           </div>
+        </section>
+      <section class="customer-care-area row pb-5">
+        <div class="services col-md-5 align-items-center order-2 p-4">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0 text-md-start text-center align-items-center shadow">
+              <div class="col-md-3 p-4">
+                <img src="logo&icons/service1.png" class="img-fluid" style="width: 150px;">
+              </div>
+              <div class="col-md-9">
+                <div class="card-body">
+                  <h5 class="card-title">Find the Perfect Fit</h5>
+                  <p class="card-text">Everybody is different, which is why we
+                    offer styles for every body.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0 text-md-start text-center align-items-center shadow">
+              <div class="col-md-3 p-4">
+                <img src="logo&icons/service2.png" class="img-fluid" style="width: 150px;">
+              </div>
+              <div class="col-md-9">
+                <div class="card-body">
+                  <h5 class="card-title">Free Exchanges</h5>
+                  <p class="card-text">One of the many reasons you can shop
+                    with peace of mind.</p> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0 text-md-start text-center align-items-center shadow">
+              <div class="col-md-3 p-4">
+                <img src="logo&icons/service3.png" class="img-fluid" style="width: 150px;">
+              </div>
+              <div class="col-md-9">
+                <div class="card-body">
+                  <h5 class="card-title">Contact Our Seller</h5>
+                  <p class="card-text">They are here to help you. That's quite 
+                    literally what we pay them for.</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      <section class="customer-care-area row d-flex">
-        <div class="col-lg-5 col-sm-12">
-          <div class="service1 row">
-            <div class="icon-part col-lg-3 col-sm-8">
-              <img src="logo&icons/image1.png" class="p-2">
-            </div>
-            <div class="text-part col-9 p-3">
-              <h3>Find the Perfect Fit</h3>
-              <p>Everybody is different, which is why we
-                offer styles for every body.</p>
-            </div>
-          </div>
-          <div class="service1 row">
-            <div class="icon-part col-lg-3 col-sm-8">
-              <img src="logo&icons/image2.png" class="p-2">
-            </div>
-            <div class="text-part col-9 p-3">
-              <h3>Free Exchanges</h3>
-              <p>One of the many reasons you can shop
-                with peace of mind.</p>
-            </div>
-          </div>
-          <div class="service1 row">
-            <div class="icon-part col-lg-3 col-sm-8">
-              <img src="logo&icons/image3.png" class="p-2">
-            </div>
-            <div class="text-part col-9 p-3">
-              <h3>Contact Our Seller</h3>
-              <p>They are here to help you. That's quite 
-                literally what we pay them for.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-7 col-sm-12 justify-content-start">
+        <div class="col-md-7 col-sm-12 customer-care-img order-lg-2 p-1">
           <img src="logo&icons/customer-care-img.png" >
         </div>
       </section>
     </main>  
-    <footer>
-      <section class="contact-form">
+    <footer class="container pt-5 pb-5">
+      <section class="contact-form" id="contact-us">
         <div class="container d-flex align-items-center justify-content-center orange-bg" id="subscribe">
           <div>
             <h3>LET'S STAY IN TOUCH</h3>

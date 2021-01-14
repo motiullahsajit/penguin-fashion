@@ -2,17 +2,34 @@
 img{
     width: 100%;
 }
-.cat1, .cat2, .cat3{
-    padding: 10px 30px;
+header{
+    background-color: #ffffd2;
+}
+main{
+    background-color: #ecf1cf;
+}
+footer{
+    background-color: #FFFBF0;
+}
+nav{
+    background-image: url(logo&icons/nav-bg.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+.categori-woman,.categori-man{
+    padding: 5px 0px;
     border-radius: 10px;
 }
-.cat1{
+.categories a{
+    text-decoration: none;
+}
+.categori-woman{
     background-color: orange;
 }
-.cat2{
+.categori-man{
     background-color: #8A8782;
 }
-.categories h1{
+.categories h2{
     color: white;
 }
 .categories img{
