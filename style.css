@@ -2,19 +2,53 @@
 img{
     width: 100%;
 }
+.highlite-color{
+    color: #FABE4C;
+}
+.buy-button{
+    color: #fff;
+    background-color: #8FA928;
+    padding: 8px 15px;
+}
+.buy-now-padding{
+    padding: 0px 7px;
+}
+/* header part*/
 header{
     background-color: #ffffd2;
-}
-main{
-    background-color: #ecf1cf;
-}
-footer{
-    background-color: #FFFBF0;
 }
 nav{
     background-image: url(logo&icons/nav-bg.png);
     background-position: top center;
     background-repeat: no-repeat;
+}
+.navbar-nav a{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.highlite-color{
+    color: #FABE4C;
+}
+/* introduction part*/
+.itroduction h1{
+    font-family: 'Bebas Neue';
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 60px;
+    color:#363958;
+}
+.itroduction p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #3E3E3E;
+}
+/* main part */
+main{
+    background-color: #ecf1cf;
 }
 .categori-woman,.categori-man{
     padding: 5px 0px;
@@ -29,9 +63,58 @@ nav{
 .categori-man{
     background-color: #8A8782;
 }
-.categories h2{
+.categories h4{
     color: white;
 }
 .categories img{
     width: 100px;
+}
+main h1{
+    font-family: 'Bebas Neue';
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 48px;
+    color:#363958;
+}
+/* card items */
+.card{
+    border-radius: 10px;
+}
+.card h3{
+    font-family: 'Roboto';
+    font-size: 36px;
+    font-weight: 900;
+    color: #FABE4C;
+}
+.card .card-footer{
+    border-top: none;
+    background: none;
+}
+.card h5{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 24px;
+    color: #363958;
+}
+.card p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #3E3E3E;
+}
+/* footer part */
+footer{
+    background-color: #FFFBF0;
+}
+footer h3{
+    font-family: 'Bebas Neue';
+    font-size: 60px;
+}
+footer p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #3E3E3E;
 }
